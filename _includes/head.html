@@ -3,29 +3,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} - {{ site.description }}</title>
-  <meta name="description" content="{{% site.description }}">
-  <link rel="icon" href="{{ % site.url}}/images/favicon.ico" type="image/x-icon">
-  <link rel="image_src" href="{{% site.url}}/images/dtl1-sm.png">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="{{ site.baseurl}}/images/favicon.ico" type="image/x-icon">
+  <link rel="image_src" href="{{ site.baseurl}}/images/dtl1-sm.png">
 
   <meta name="Keywords" content="">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="{{% site.url}}/images/dtl1-sm.png">
+  <meta property="og:image" content="{{ site.baseurl }}/images/dtl1-sm.png">
 
-  <link href="{{% site.url}}/style/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
-  <link href="{{% site.url}}/style/bootstrap-theme.css" media="screen" rel="stylesheet" type="text/css">
-  <link href="{{% site.url}}/style/main.css" media="screen" rel="stylesheet" type="text/css">
-  <link href="{{% site.url}}/style/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/style/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/style/bootstrap-theme.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/style/main.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/style/font-awesome.min.css" rel="stylesheet">
 
-  <script src="{{% site.url}}/script/jquery.min.js"></script>
-  <script src="{{% site.url}}/script/bootstrap.min.js" media="screen"></script>
-  <script src="{{% site.url}}/script/main.js" media="screen"></script>
-  <script async="" src="{{% site.url}}/script/analytics.js"></script>
+  <script src="{{ site.baseurl }}/script/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/script/bootstrap.min.js" media="screen"></script>
+  <script src="{{ site.baseurl }}/script/main.js" media="screen"></script>
+  <script async="" src="{{ site.baseurl}}/script/analytics.js"></script>
   <script type="text/javascript">
     // Nasty hack to ensure the navbar menu is highlighted properly when user
     // goes to a page different to index.html (otherwise, the home option
     // keeps highlighted in the navbar
     $( document ).ready(function() {
       $('a[href="' + document.location.pathname + '"]').parent().parent().parent().addClass('active');
+      $('a[href="' + document.location.pathname + '"]').parent().addClass('active');
     });
   </script>
   <script>
