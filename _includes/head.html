@@ -21,6 +21,32 @@
   <script src="{{ site.baseurl }}/script/main.js" media="screen"></script>
   <script async="" src="{{ site.baseurl}}/script/analytics.js"></script>
   <script type="text/javascript">
+
+    {{ % if page.easteregg % }}
+     var secreth = "68847672"; 
+     var secrets = "68847683"; 
+     var input = "";
+     var timer;
+     $(document).keyup(function(e) {
+       input += e.which;    
+       clearTimeout(timer);
+       timer = setTimeout(function() { input = ""; }, 500);
+       check_input();
+     }); 
+
+    function check_input() {
+      console.log("TEST " + input);
+      if(input == secreth) {
+        $( ".toggleable" ).css( "display", "none" );
+      } else if(input == secrets) {
+        $( ".toggleable" ).css( "display", "block" );
+      }
+    };
+
+{{ % else % }}
+{{ % endif % }}
+  </script>
+  <script type="text/javascript">
     // Nasty hack to ensure the navbar menu is highlighted properly when user
     // goes to a page different to index.html (otherwise, the home option
     // keeps highlighted in the navbar
