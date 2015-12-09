@@ -1,0 +1,18 @@
+  <footer class="footer main-footer">
+    <p class="text-muted">
+      <!-- Link trigger modal -->
+      <!-- <a data-toggle="modal" data-target="#myModal1">Privacy and Transparency Policy</a> -->
+      <a href="{{% site}}/policy.html" class="popup2">Privacy and Transparency Policy</a>
+    </p>
+    <p class="text-muted">
+      © Data Transparency Lab 2015
+    </p>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery('.menu a').click(function(){
+          var match = jQuery(this).attr('href').match(/#\S+/);
+          ga('send', 'pageview', location.pathname + match[0]);
+        });
+      });
+    </script>
+  </footer>
