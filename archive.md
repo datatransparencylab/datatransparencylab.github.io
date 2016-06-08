@@ -33,7 +33,9 @@ title: Archive
    {% if thecycle == '3' or forloop.last %}</div></div>{% endif %}
 {% endfor %}
 </div>
-
+<div id="twitter-module">
+<a class="twitter-timeline" href="https://twitter.com/DTL_info">Tweets by DTL_info</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 <div class="padded-bottom">
 				</div>
  
