@@ -923,3 +923,9 @@ box-shadow: 0px 0px 18px 2px rgba(136,206,207,1);
 
 	background-color: #7ab9ba;
 }
+
+#twitter-module{
+max-width: 600px;
+padding: 3em;
+
+}
