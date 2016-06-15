@@ -20,18 +20,30 @@ body{
 	position: relative;
 }
 
+ 	
+
+
 body a{
+
+	 /*border-bottom: 3px solid #7ab9ba;*/
 	text-decoration: none;
 	color:black;
 	font-size: 16px;
 }
 
 body a:hover{
-	text-decoration: underline;
+	text-decoration: none;
+	 color:#7ab9ba;
 }
 
 body a:active {
     background-color: #e7f5f5;
+}
+
+nav a{
+
+	border-bottom: 0px;
+	text-decoration: none;
 }
 
 section{
@@ -937,7 +949,7 @@ padding-left: 10%;
 
 .cfp2016{
 
-	border: 2px solid #7ab9ba ;
+	border: 1px dotted #7ab9ba ;
 }
 
 
