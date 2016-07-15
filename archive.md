@@ -20,13 +20,12 @@ title: Archive
      {% if post.type == 'blog' %}style="background-color:#71ADAE">{% endif %}
      {% if post.type == 'news' %}style="background-color:#9D8BAE">{% endif %}
      {% if post.type == 'update' %}style="background-color:#D19999">{% endif %}
-     <div class="text">
-       <h2 class="module-heading">{{ post.title}} </h2>
-       <p class="module-subheading"> {{post.author}} </p>
-       <p class="module-meta"> {{post.date | date_to_string}} </p>
-       <p class="category">{{post.type}}</p>
-     </div>
-     </div>
+       <div class="text">
+         <h2 class="module-heading">{{ post.title}} </h2>
+         <p class="module-subheading"> {{post.author}} </p>
+         <p class="module-meta"> {{post.date | date_to_string}} </p>
+         <p class="category">{{post.type}}</p>
+       </div>
      </div>
    </div>
    </a>
