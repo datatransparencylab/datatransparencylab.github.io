@@ -29,6 +29,8 @@ body a{
 	text-decoration: none;
 	color:black;
 	font-size: 16px;
+	
+
 }
 
 body a:hover{
@@ -44,6 +46,7 @@ nav a{
 
 	border-bottom: 0px;
 	text-decoration: none;
+	background-color: transparent;
 }
 
 section{
@@ -108,6 +111,19 @@ h6{
 	margin-right: auto;
 }
 
+#tools a{
+
+		 border-bottom: 3px solid #7ab9ba;
+}
+
+#tools a:hover{
+	 
+/*	 border-bottom: 3px solid #7ab9ba;*/
+	 text-decoration: none;
+	 color:#7ab9ba;
+	
+
+}
 .slick-pics{
   background-color: white;
   padding: 30px;
