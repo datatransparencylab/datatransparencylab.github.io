@@ -209,11 +209,11 @@ h6{
 	display: block;
 	text-align: center;
 	width:100%;
-	/*padding-top:3em;*/
+ 
 	padding-bottom: 2.667em;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 4.667em;
+	/*padding-bottom: 4.667em;*/
 	background-color: #ffffff;
 }
 
@@ -233,7 +233,7 @@ h6{
 }
 
 .section3 a{
-  color: 	#3f4747; lin
+  color: 	#3f4747;  
 }
 
 .section3 li {
@@ -280,7 +280,7 @@ h6{
 }
 
 .introduction{
-	margin-bottom: 2em;
+	/*margin-bottom: 2em;*/
 }
 
 .introduction-hero{
@@ -914,26 +914,21 @@ margin: .5em;
 
 
 /*INDEX.html classes */
-#headliners{
  
-	
-}
 .headliner{
-padding:25px;
-
-/*max-width: 30%;
-height: auto;*/
+/*padding:25px;*/
+margin: 10px;
 
 }
 .headliner img{
-width: 80%;
+
+/*max-width: 70%;*/
+
 /*rgb(180,224,225)*/
 
 /*-webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
 box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);*/
-
-
 border-radius: 40px 40px 40px 40px;
 -moz-border-radius: 40px 40px 40px 40px;
 -webkit-border-radius: 40px 40px 40px 40px;
@@ -945,9 +940,7 @@ border: 0px solid #000000;
 -webkit-box-shadow: 0px 0px 18px 3px rgba(136,206,207,1);
 -moz-box-shadow: 0px 0px 18px 3px rgba(136,206,207,1);
 box-shadow: 0px 0px 18px 3px rgba(136,206,207,1);
-/*-webkit-box-shadow: 0px 0px 12px 0px rgba(193,192,194,1);
--moz-box-shadow: 0px 0px 12px 0px rgba(193,192,194,1);
-box-shadow: 0px 0px 12px 0px rgba(193,192,194,1);*/
+ 
 
 
 }
