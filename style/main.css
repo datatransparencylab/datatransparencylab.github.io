@@ -209,11 +209,11 @@ h6{
 	display: block;
 	text-align: center;
 	width:100%;
-	/*padding-top:3em;*/
+ 
 	padding-bottom: 2.667em;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 4.667em;
+	/*padding-bottom: 4.667em;*/
 	background-color: #ffffff;
 }
 
@@ -233,7 +233,7 @@ h6{
 }
 
 .section3 a{
-  color: 	#3f4747; lin
+  color: 	#3f4747;  
 }
 
 .section3 li {
@@ -280,7 +280,7 @@ h6{
 }
 
 .introduction{
-	margin-bottom: 2em;
+	/*margin-bottom: 2em;*/
 }
 
 .introduction-hero{
@@ -631,6 +631,7 @@ h6{
  	border-left-style:dashed;
  	border-bottom-color:#cfcfcf;
  	border-bottom-style:dotted;
+ 	padding-bottom: 30px;
 }
 
 .text-grid-cc{
@@ -680,6 +681,36 @@ h6{
 	text-align: left;
 }
 
+/*.post-body a{
+	 
+	 border-bottom: 3px solid #7ab9ba;
+
+
+}
+
+.post-body a:hover{
+	 
+	 border-bottom: 3px solid #7ab9ba;
+	 text-decoration: none;
+	 color:#7ab9ba;
+	
+
+}*/
+
+#grantees a{
+ border-bottom: 3px solid #7ab9ba;
+ margin: 15px; 
+
+
+}
+#grantees a:hover{
+ border-bottom: 3px solid #7ab9ba;
+	 text-decoration: none;
+	 color:#7ab9ba;
+	
+
+
+}
 .mention-header{
   background-color: #E7E7E7 ;
   margin-top: 40px;
@@ -848,7 +879,7 @@ margin: 1em;
 }
 
 .post-body{
-	width: 90%;
+	width: 80%;
 	padding: 40px;
 	text-align: left;
 	background-color:white;
@@ -874,6 +905,14 @@ margin: 1em;
 	 color:#7ab9ba;
 	
 
+}
+/*.post-body p{
+
+	margin-left: 0px;
+}*/
+.post-body  em{
+font-size: 1.3em;
+	
 }
 
 
@@ -914,26 +953,21 @@ margin: .5em;
 
 
 /*INDEX.html classes */
-#headliners{
  
-	
-}
 .headliner{
 padding:25px;
-
-/*max-width: 30%;
-height: auto;*/
+/*margin: 10px;*/
 
 }
 .headliner img{
-width: 80%;
+
+max-width: 80%;
+
 /*rgb(180,224,225)*/
 
 /*-webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
 box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);*/
-
-
 border-radius: 40px 40px 40px 40px;
 -moz-border-radius: 40px 40px 40px 40px;
 -webkit-border-radius: 40px 40px 40px 40px;
@@ -945,9 +979,7 @@ border: 0px solid #000000;
 -webkit-box-shadow: 0px 0px 18px 3px rgba(136,206,207,1);
 -moz-box-shadow: 0px 0px 18px 3px rgba(136,206,207,1);
 box-shadow: 0px 0px 18px 3px rgba(136,206,207,1);
-/*-webkit-box-shadow: 0px 0px 12px 0px rgba(193,192,194,1);
--moz-box-shadow: 0px 0px 12px 0px rgba(193,192,194,1);
-box-shadow: 0px 0px 12px 0px rgba(193,192,194,1);*/
+ 
 
 
 }
