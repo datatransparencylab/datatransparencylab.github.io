@@ -72,12 +72,12 @@ Over 20 presentations of cutting-edge research, panels, and discussions surround
 The hub of this effort is the Data Transparency Lab, a community effort founded by MIT Connection Science, Mozilla Foundation, Open Data Institute and Telefónica.</p> -->
 
 <br>
-<p><a href="http://dtlconferences.org/">For more info on our DTL Events visit: www.dtlconferences.org</a></p>
+
 <div class="row">
 	<div class="col-sm-12"> 
 				<!-- link a la imagen -->
-		<img class="img-responsive" title="" src="/images/2016-jumbologo.png">
-		 
+		<a href="http://dtlconferences.org/"><img class="img-responsive" title="" src="/images/2016-jumbologo.png"></a>		
+		 <p><a href="http://dtlconferences.org/">For more info on our DTL Events visit: www.dtlconferences.org</a></p>
 
 	</div>
 	</div>
