@@ -58,6 +58,16 @@ type: news
 <p><em>Which are your current projects involving data privacy and transparency?</em></p>
 <p>For us here in Brussels one of our major areas of focus on the policy front will be the review of the reform of the e-privacy regulation as well as like most companies gearing up for the implementation and the enforcement of the GDPR. We also released last month our new version of Focus which is our iOS privacy browser and which now comes in 24 different languages.</p>
 
+<br>
+
+<div class="row">
+	<div class="col-sm-12"> 
+				<!-- link a la imagen -->
+		<a href="http://dtlconferences.org/"><img class="img-responsive" title="" src="/images/2016-jumbologo.png"></a>		
+		 <p><a href="http://dtlconferences.org/">For more info on our DTL Events visit: www.dtlconferences.org</a></p>
+
+	</div>
+	</div>
 
 <!-- close post body -->
 </div>
