@@ -3,7 +3,7 @@ layout: default
 title: "DTL Talks: Raegan MacDonald, Senior Policy Manager, EU Principal at Mozilla"
 description:  "Raegan MacDonald talks about Mozilla's transparency positioning in Brussels"
 blurb: "Raegan MacDonald talks about Mozilla's transparency positioning in Brussels"
-date: 2017-02-14 00:00:00 +0100
+date: 2017-02-27 00:00:00 +0100
 categories: News
 type: news
 ---

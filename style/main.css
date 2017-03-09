@@ -348,21 +348,18 @@ h6{
 .a-partner-logo{
   max-height: 70px ;
   width: auto ;
-  padding:4px;
+  padding:6px;
   margin-bottom:3px;
   margin-top:3px;
-  margin-right: 5px;
+  margin-right: 15px;
+  
   vertical-align:middle;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 
 }
 
-.a-partner-logo img{
 
-	  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
 #partnerLogos{
 
 	margin-top: 40px;
