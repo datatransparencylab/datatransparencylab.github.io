@@ -83,6 +83,14 @@ The hub of this effort is the Data Transparency Lab, a community effort founded 
 	</div>
 		
 
+<div class="row">
+	<div class="col-sm-12"> 
+				<!-- link a la imagen -->
+		<a href="http://dtlconferences.org/"><img class="img-responsive" title="" src="/images/dtl2017.png"></a>		
+		 <p><a href="http://dtlconferences.org/">For more info on our DTL Events visit: www.dtlconferences.org</a></p>
+
+	</div>
+	</div>
 <!-- close post body -->
 </div>
 </div>
