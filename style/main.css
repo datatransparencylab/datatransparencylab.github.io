@@ -1012,10 +1012,10 @@ padding-left: 10%;
 
 
 .well{
-
--webkit-box-shadow: 0px 0px 8px 2px rgba(136,206,207,1);
+border:1px solid #88CECF;
+/*-webkit-box-shadow: 0px 0px 8px 2px rgba(136,206,207,1);
 -moz-box-shadow: 0px 0px 8px 2px rgba(136,206,207,1);
-box-shadow: 0px 0px 18px 2px rgba(136,206,207,1);
+box-shadow: 0px 0px 18px 2px rgba(136,206,207,1);*/
 /*  background-color: red;*/
 
 }
